@@ -1,0 +1,68 @@
+.menu {
+  /* add correct code to place the menu correctly.*/
+
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  justify-content:space-evenly;
+  flex:0.5;
+}
+ body {
+  background-color: rgb(236, 149, 149);
+}
+
+
+.grid{
+  /* The `display: flex;` property is used to create a flex container. It enables a flex context for
+  all its direct children, turning them into flex items. This allows for flexible and responsive
+  layouts by distributing space among the flex items. */
+  display: flex;
+  /* The `flex-wrap: wrap;` property is used to specify whether the flex items should wrap or not when
+  they exceed the container's width. If set to `wrap`, the flex items will wrap onto multiple lines
+  if necessary. */
+  flex-wrap: wrap;
+  /* `justify-content: space-evenly;` is a CSS property that is used to distribute the flex items
+  evenly along the main axis of the flex container. It adds equal space between the flex items, as
+  well as before the first item and after the last item. This creates a visually balanced layout
+  where the space is evenly distributed between the flex items. */
+  justify-content: space-evenly;
+  
+}
+
+
+
+
+/* The `.grid` class is defining the styling for a container element.
+.grid {
+  
+  /* The `flex-wrap: wrap;` property is used to specify whether the flex items should wrap or not when
+  they exceed the container's width. If set to `wrap`, the flex items will wrap onto multiple lines
+  if necessary. */
+  /* flex-wrap: wrap;
+  font-family: sans-serif;
+  flex:0.2;
+}*/
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+  /* The `position: relative;` property is used to specify that an element should be positioned
+  relative to its normal position. This means that any positioning properties, such as `top`,
+  `right`, `bottom`, or `left`, will be relative to the element's normal position. */
+  position:relative;
+   top:50%;
+
+  }
+    
+  
+
+/*.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+} */ 
